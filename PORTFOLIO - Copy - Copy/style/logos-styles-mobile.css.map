@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,QAAQ,EAAE,KAAK;EAGlC,AAAA,IAAI,CAAA;IACA,gBAAgB,EAAE,GAAG;GACxB",
+    "sources": [
+        "logos-styles-mobile.scss"
+    ],
+    "names": [],
+    "file": "logos-styles-mobile.css"
+}

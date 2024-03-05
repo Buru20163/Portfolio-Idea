@@ -1,0 +1,293 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+h4{
+    font-size: 1.6rem;
+
+    
+}
+
+a:hover{
+     
+    .opener{
+
+        &::after{
+            content: "";
+            background-color:   #00FF26;
+            transition: 0.8s;
+        }
+
+
+ 
+    }
+    line{
+        stroke: white;
+        transition: 0.8s;
+    }
+}
+
+
+a:hover{
+color: #00FF26;
+transition: 1s;
+}
+a:active{
+color: #00ff26;
+}
+h1{
+font-size: 2rem;
+}
+
+ul{
+font-size: 1.6rem;
+}
+.text{
+
+h1{
+font-size: 1.6rem;
+}
+}
+
+.logo{
+    max-width: 10rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.opener{
+    margin-left: 30px;
+}
+
+.showcase{
+display: grid;
+width: 100%;
+height: 100vh;
+grid-template-columns: 10% 1fr 1fr 10%;
+grid-template-rows: 10% 1fr 1fr 10%;    
+
+
+.logo-expose{
+    grid-row: 2/3;
+    grid-column: 2/4;
+    object-fit: cover;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.description{
+    grid-row:3/4;
+    grid-column:3/4;
+    justify-content: flex-end;
+    text-align: start;
+}
+
+
+.nav-container{
+    display: flex;
+    border-right:  0.5px solid rgba(0, 0, 0, 0.288);
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 1/5;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        white-space: nowrap;
+        
+        
+        ul{ display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            list-style: none;
+            font-size: 2rem;
+            flex: 0.5;
+           margin-bottom: 280%;
+        }
+        .logo{ img{
+            display: flex;
+            flex-direction: column;
+           
+            justify-content: space-between;
+            flex: 5;
+        }
+        }
+    }
+}
+.portfolio{
+   margin-left: -52%;
+    grid-row: 1/2;
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    white-space: nowrap;
+
+
+
+    
+  
+       .opener{ position: relative;
+    
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: black;
+            top: 0;
+            left: 0;
+            width: 3.4rem;
+            height: 3.4rem;
+            border-radius: 100%;
+         
+            transform: translate(-35%,-32%);
+                mix-blend-mode: screen;
+                z-index: -1;
+                
+        }
+       }
+    
+
+}
+
+
+}
+
+/* CONTENT */
+
+.content {
+    z-index: -1;
+} 
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+    
+  }
+    body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background:#00FF26;
+    border-radius: 25px;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+
+.about-me{
+    text-align: flex-start;
+    margin-left: 40%;
+    margin-top: -46%
+}
+
+.stuff{
+    h1{
+        border-bottom: 5px solid black;
+        border-radius: 0px;
+        font-size: 2rem;
+    }
+
+    h4{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+}
+
+h6{
+    font-size: 10rem;
+    font-weight: bold;
+   
+}
+h5{
+  
+    font-size: 4.3rem;
+    
+    
+    
+}
+.light{
+    font-weight: lighter;
+    color: black;
+}
+
+.buru{
+    padding-bottom: 3%;
+h6{
+    margin-left: -45%
+}
+h5{
+    margin-left: -45%;
+    color: black;
+}
+
+}
+h1{
+    font-weight: 450;
+    line-height: 150%
+}
+
+h2{
+    color: black;
+}
+
+.light{
+    h5{
+      color: black;
+    }
+   }
+
+
+   /* menu */ 
+
+   .content{
+       position: relative;
+   }
+
+   .portfolio{
+       display: flex;
+       position: absolute;
+       top: 2%;
+       left: 85%;
+       
+       
+   }
+

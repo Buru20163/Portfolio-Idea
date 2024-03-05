@@ -1,0 +1,36 @@
+/* next */
+.next > svg > g > path {
+  cursor: pointer;
+  position: absolute;
+}
+
+.next {
+  position: absolute;
+  left: 90vw;
+  top: 45vh;
+}
+
+.next > a > svg > g > path:hover {
+  fill: #00FF26;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/* next */
+.previous > svg > g > path {
+  cursor: pointer;
+  position: absolute;
+}
+
+.previous {
+  position: absolute;
+  left: 15vw;
+  top: 45vh;
+}
+
+.previous > a > svg > g:hover {
+  fill: #00FF26;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+/*# sourceMappingURL=next-style.css.map */
